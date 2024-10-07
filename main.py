@@ -682,7 +682,7 @@ try:
             game()
         if (Touch.X_point > 65 and Touch.X_point < 165) and (Touch.Y_point > 150 and Touch.Y_point < 180)  and currentScreen == 2: # reset button
             currentScreen = 1
-            startingScreen()
+            answered = True
         Touch.X_point = 0
         Touch.Y_point = 0
 
